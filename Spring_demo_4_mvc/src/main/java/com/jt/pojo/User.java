@@ -35,4 +35,12 @@ public class User { // 通过容器为对象的属性赋值
         this.id = id;
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

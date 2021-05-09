@@ -1,6 +1,6 @@
-package com.jt.pojo;
+package com.jt.dao;
 
-import com.jt.dao.Userdao;
+import com.jt.pojo.User;
 
 /**
  * ===================
