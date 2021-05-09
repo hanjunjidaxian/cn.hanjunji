@@ -3,28 +3,28 @@
 <h5 style="text-align:right">Wx:context_getBean</h5>
 <h5 style="text-align:right">Qq:2834437260</h5>
 
-#框架
+#框架  
 ####1.什么是框架?  
 将公共的模块(功能)进行高级抽取(接口/父级)形成了通用的代码体   
 ####2.如何使用框架?  
 引入特定的jar包/class方法    
 ####3.使用框架的意义?  
 简化代码的开发 提高软件的**扩展性**
-##Spring
+##Spring  
 **Spring框架是一个开源的**j2EE应用程序框架,主要的作用是**将其他框架进行整合**通过对**bean的生命周期进行管理的轻量级容器,并提供了功能强大的IOC、AOP及Web MVC...**  
 **Bean:spring容器管理的对象都称之为Bean**
 **Spring会自动管理Bean,无需手动完成对象的创建及销毁,只需要调用Spring去完成**
-###MVC模型
+###MVC模型  
 ![img_1.png](img_1.png)
-####1.M(Model) 持久层 
+####1.M(Model) 持久层   
 代码与数据库进行交互的代码(Mybatis-dao层)
-####2.C(Control) 控制层 
+####2.C(Control) 控制层  
 完成业务的功能的具体操作层 功能的实现层(Controller---Service层)
-####3.V(View) 视图层 
+####3.V(View) 视图层  
 一般指前端可视化内容(页面)
 
-###IOC
-####说明
+###IOC  
+####说明  
 **控制反转(Inversion of Control , IOC)**
 摒弃了传统通过new对象的方式来创建对象 增加了代码的扩展性 降低了程序的耦合
 **将程序的创建权利交给Spring管理** 由spring完成对象的创建/初始化/使用/销毁
